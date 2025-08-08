@@ -1,0 +1,7 @@
+.colorboxgrid{
+    display: flex;
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
