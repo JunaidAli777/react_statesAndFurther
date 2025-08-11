@@ -5,15 +5,14 @@ const SetScores = () => {
 
     // const incP1 = () => {
     //     scores.p1 += 1;
-    //     setScores(scores)
+    //     setScores(scores) 
     // }
 
     // const incP2 = () => {
     //     scores.p2 += 1;
     //     setScores(scores)
     // }
-    // the above logic won't work because react would not detect any change in the state since
-    // scores would stil be pointing to the same object even after change in it
+
 
 
     // const incP1 = () => {
@@ -41,6 +40,8 @@ const SetScores = () => {
         })
     }
 
+
+// incp1() = would execute the function directly without the button being clicked
     return (
         <div>
             <p>P1 score: {scores.p1}</p>

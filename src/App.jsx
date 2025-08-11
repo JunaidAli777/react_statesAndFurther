@@ -7,6 +7,7 @@ import Add from './Add'
 import UsernameForm from './UsernameForm'
 import SignupForm from './SignupForm'
 import BetterSignupForm from './BetterSignupForm'
+import UseEffectDemo from "./UseEffectDemo"
 const colors = [
   "#E53935",
   "#E91E63",
@@ -27,6 +28,8 @@ const colors = [
 ];
 
 import SetScores from './SetScores'
+import UseEffect from './UseEffect'
+import ColorBoxGrid from './ColorBoxGrid'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -37,7 +40,10 @@ function App() {
       {/* <SetScores /> */}
       {/* <UsernameForm /> */}
       {/* <SignupForm /> */}
-      <BetterSignupForm />
+      {/* <BetterSignupForm /> */}
+      {/* <UseEffectDemo /> */}
+      <ColorBoxGrid colors={colors}/>
+      <UseEffect />
     </>
   )
 }
